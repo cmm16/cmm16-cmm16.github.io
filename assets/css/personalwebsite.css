@@ -15,15 +15,19 @@ body {
 }
 
 #intro {
-    height: 600px;
+    height: 100vh;
+    margin-top: 0%;
+    margin-bottom: 4%;
 }
 
 .row {
     height: 100%;
 }
 
-#wave {
-    width: 40rem;
+#me {
+    max-width: 80%;
+    height: auto;
+    mix-blend-mode: normal;
 }
 
 img {
@@ -67,3 +71,4 @@ h3 {
 #links {
     max-width: 400px;
 }
+
