@@ -1,5 +1,11 @@
-var currentWidth
-var currentHeight
+$(".link").click(function() {
+    var sectionId = "#" + $(this).text()
+    console.log(sectionId)
+    $('html, body').animate({
+      scrollTop: $(sectionId).offset().top
+    }, 1000);
+  });
+
 
 /*
 $(".card").hover(
@@ -33,3 +39,4 @@ $(function (){
     
 });
 */
+

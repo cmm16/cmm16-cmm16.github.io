@@ -37,34 +37,45 @@
 
     <!-- Jumbotron with into paragraph-->
     <div class="jumbotron text-center p-5 m-auto">
-        <h1 class="display-4">Synopsis</h1>
+        <h1 class="display-4">README</h1>
         <p class="lead">
             I am a data-driven problem solver who comes up with high-impact solutions while studying statistics at Rice University
         </p>
-        <!--
+
         <hr class="my-4">
         <p>Skip to...</p>
         <p class="lead">
             <div class="btn-group btn-group d-none d-sm-inline-flex" role="group" aria-label="Basic example">
-                <button type="button" class="btn btn-primary">Rice </button>
-                <button type="button" class="btn btn-primary">Work</button>
-                <button type="button" class="btn btn-primary">Coding</button>
-                <button type="button" class="btn btn-primary">Personal</button>
+                <button type="button" class="btn btn-primary link">Rice </button>
+                <button type="button" class="btn btn-primary link">Work</button>
+                <button type="button" class="btn btn-primary link">Coding</button>
+                <button type="button" class="btn btn-primary link">Personal</button>
             </div>
 
             <div class="btn-group btn-group-sm d-sm-none d-inline-flex" role="group" aria-label="Basic example">
-                <button type="button" class="btn btn-primary">Rice</button>
-                <button type="button" class="btn btn-primary">Work</button>
-                <button type="button" class="btn btn-primary">Coding</button>
-                <button type="button" class="btn btn-primary">Personal</button>
+                <button type="button" class="btn btn-primary link">Rice</button>
+                <button type="button" class="btn btn-primary link">Work</button>
+                <button type="button" class="btn btn-primary link">Coding</button>
+                <button type="button" class="btn btn-primary link">Personal</button>
             </div>
         </p>
-        -->
+
+    </div>
+    <!--
+    <div class="container">
+
+    <div class="jumbotron text-center p-5 mx-auto my-5" >
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    -->
     </div>
 
     <!-------------------------------------------------------------------------------------------------------------------------->
     <!--Rice-->
-    <div class="container-fluid headerStrip">
+    <div id="Rice" class="container-fluid headerStrip">
         <div class="row text-center align-items-center ">
             <div class="col col-0 col-sm-1 p-0 m-0"></div>
             <div class="col col-4 col-sm-4 text-left">
@@ -178,7 +189,7 @@
 
     <!-------------------------------------------------------------------------------------------------------------------------->
     <!--Work-->
-    <div class="container-fluid headerStrip">
+    <div id="Work" class="container-fluid headerStrip">
         <div class="row text-center align-items-center ">
             <div class="col col-0 col-sm-1 p-0 m-0"></div>
             <div class="col col-4 col-sm-4 text-left">
@@ -283,7 +294,7 @@
 
        <!-------------------------------------------------------------------------------------------------------------------------->
     <!--Code-->
-    <div class="container-fluid headerStrip">
+    <div id="Coding" class="container-fluid headerStrip">
         <div class="row text-center align-items-center ">
             <div class="col col-0 col-sm-1 p-0 m-0"></div>
             <div class="col col-4 col-sm-4 text-left">
@@ -305,13 +316,15 @@
                     </div>
                     <div class="col col-12 col-sm-6 col-lg-12">
                         <div class="card-body">
-                            <h4 class="card-title text-center">Idea2Data</h4>
                             <p class="card-text">
+                            <br />
+                            <h4 class="card-title text-center">Idea2Data</h4>
+                            <br />
                                 <p>
                                     I invented an automated image data collector, cleaner, and generator by implementing a variational auto encoder 
-                                    for decreasing time spent acquiring data for computer-vision projects
-                                <br />
-                                <br />
+                                    to decrease time spent collecting data for computer-vision projects
+                                
+                                
                                 <br />
                                 <br />
                                 <br />
@@ -336,12 +349,14 @@
                     <div class="col col-12 col-sm-6 col-lg-12">
                         
                         <div class="card-body">
+                            <p class="card-text"></p>
+                            <br />
+                            
                             <h4 class="card-title text-center mb-0">Winner, Cognite 2019 Coding Challenge</h4>
-                            <p class="card-text">
+                            <br />
                                 <p>I won first place in a challenge to forecast sensor 
                                         data using historical values by stacking multiple long short-term memory neural networks
-                                <br />
-                                <br />
+                                
                                 <br />
                                 <br />
                                 <br />
@@ -358,7 +373,7 @@
             <!----------------------------------------------------------------------------------------------------->
 
             <!--Languages----------------------------------------------->
-            <div class="card mb-4">
+            <div class="card mb-4 w-100">
                 <div class="row no-gutters">
                     <div class="col col-12 col-sm-6 col-lg-12">
                         <img src="img/languages.jpg" class="card-img-top d-flex m-auto" alt="...">
@@ -371,16 +386,16 @@
                                 <p>
                                     <ul>
                                         <li>
-                                            <h5>Experienced</h5>
-                                            <p>Python, R</p>
+                                            Experienced
+                                            <p><strong>Python, R</strong></p>
                                         </li>
                                          <li>
-                                            <h5>Intermediate</h5>
-                                            <p>Java, SQL, JavaScript, HTML, CSS</p>
+                                            Intermediate
+                                            <p><strong>Java, SQL, JavaScript, HTML, CSS</strong></p>
                                         </li>
                                          <li>
-                                            <h5>Beginner</h5>
-                                            <p>C++</p>
+                                            Beginner
+                                            <p><strong>C++</strong></p>
                                         </li>
                                     </ul>  
                                 <div class="d-none d-lg-block">
@@ -400,7 +415,7 @@
 
     <!------------------------------------------------------------------------------------------------------------>
     <!--Personal--> 
-    <div class="container-fluid headerStrip">
+    <div id="Personal" class="container-fluid headerStrip">
         <div class="row text-center align-items-center ">
             <div class="col col-0 col-sm-1 p-0 m-0"></div>
             <div class="col col-4 col-sm-4 text-left">
@@ -412,17 +427,7 @@
         </div>
     </div>
 
-    <div class="container"></div>
-    <div class="row justify-content-center m-0 ">
-        <div class="col col-12 col-md-9 col-lg-6 p-0">
-            <div class="card">
-                <div class="card-body p-0">
-                    <h2 class="text-center m-3">How I Spend My Free Time...</h2>
-                </div>
-            </div>
-        </div>
 
-    </div>
 
 
     <!------------------------------------------------------------------------------------------------------------>
@@ -531,7 +536,7 @@
         <p class="lead">
             I love logic problems, and here's one of my favorites:
         </p>
-
+        <img src="img/cointoss.png" class="img-fluid mb-3" alt="Responsive image">
         <p>
             Given a fair coin, the expected number of flips for the first occurence of the pattern head-tail-tail is 8. 
 
